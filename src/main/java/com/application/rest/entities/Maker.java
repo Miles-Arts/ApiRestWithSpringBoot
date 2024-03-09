@@ -3,6 +3,7 @@ package com.application.rest.entities;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.JdbcTypeRegistration;
 
 import java.util.ArrayList;
 import java.util.List;
